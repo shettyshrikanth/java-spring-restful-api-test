@@ -13,7 +13,7 @@ import uk.co.huntersix.spring.rest.model.Person;
 
 @Service
 public class PersonDataService {
-    public static final List<Person> PERSON_DATA = new ArrayList<>(Arrays.asList(
+    private static final List<Person> PERSON_DATA = new ArrayList<>(Arrays.asList(
             new Person("Mary", "Smith"),
             new Person("Brian", "Archer"),
             new Person("Collin", "Brown")));
